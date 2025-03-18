@@ -1,0 +1,70 @@
+.main-container-rectrip {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem 0rem 4rem;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.row-1-rectrip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row-2-rectrip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+.rectrip-h3{
+    color: #145A96;
+
+}
+
+
+
+@media (min-width: 1280px) {
+    .row-2-rectrip {
+        justify-content: space-between;
+
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+    .row-1-rectrip {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .row-2-rectrip {
+        gap: 1rem;
+        
+    }
+
+    .rectrip-h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-container-rectrip {
+        width: 95%;
+        padding: 1rem;
+    }
+
+    .row-1-rectrip h2 {
+        font-size: 1.5rem;
+    }
+
+}

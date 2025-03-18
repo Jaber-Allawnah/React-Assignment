@@ -1,0 +1,100 @@
+.travel-card3{
+    border: solid rgb(220, 220, 220) 0.12rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap:1rem;
+    width:100%;
+    max-width: 18rem;
+
+
+}
+
+.card-3-row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    
+}
+
+.review-div{
+    display: flex;
+    gap:0.8rem;
+    align-items: center;
+
+
+}
+
+.rating-div{
+    display: flex;
+    align-items: center;
+
+}
+
+.desc-h4{
+    margin:0.4rem 0 0 0;
+    font-family: Arial, sans-serif;
+    color: rgb(164, 164, 164);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.alt-h3{
+    margin:0;
+    font-family: Arial, sans-serif;
+
+}
+
+.price-h4{
+    margin:0;
+    font-family: Arial, sans-serif;
+    font-weight: 200;
+
+}
+
+.card-3-desc{
+    display: flex;
+    flex-direction: column;
+    gap:0.3rem;
+}
+
+.play-icon{
+    color: #145A96;
+}
+
+.star-icon{
+    color:rgb(255, 191, 0);
+}
+
+.rating-h4{
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+}
+
+.card-3-btn{
+    background: none;
+    border: solid #87b5dd 0.1rem;
+    color:#145A96;
+    padding: 0.8rem;
+
+}
+
+.reviews-h4{
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color:#145A96;
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .travel-card3{
+
+        width:100%;
+        max-width: 30rem;
+    
+    }
+}

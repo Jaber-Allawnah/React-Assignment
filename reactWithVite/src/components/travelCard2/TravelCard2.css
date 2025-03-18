@@ -1,0 +1,59 @@
+.travel-card2 {
+    border: solid rgb(220, 220, 220) 0.12rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 19.7rem;
+}
+
+.trip-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 0 1rem 0 1rem;
+}
+
+.travel-image2 {
+    width: 100%;
+    height: auto;
+    max-height: 15rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.card2-price {
+    color: #145A96;
+    font-weight: 900;
+    font-size: 1.6rem;
+}
+
+.card2-code {
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: rgb(164, 164, 164);
+    margin: 0;
+}
+
+.card2-destination {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .travel-card2 {
+        max-width: 16rem;
+    }
+    .card2-price {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .travel-card2 {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+.filedset-search{
+    width:27%;
+    border:solid rgb(220, 220, 220) 0.12rem;
+    border-radius: 0.2rem;
+}
+.search-legend{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.no-border{
+    border:none;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}

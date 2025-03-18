@@ -1,0 +1,61 @@
+.main-container-form{
+    background-image: url("/Subscribe section background.png");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5rem;
+    margin-top: 5rem;
+    font-family: Arial, sans-serif;
+
+}
+
+
+.form-fields{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: start;
+    width: 100%;
+    max-width: 26rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    gap:1rem;
+}
+
+.form-input{
+    width: 100%;
+    max-width: 23rem;
+    padding:1rem;
+    border: solid rgb(220, 220, 220) 0.12rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+.form-btn{
+    padding:1.2rem;
+    width: 100%;
+    max-width: 9rem;
+    border: none;
+    background-color: orange;
+    color:white;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+
+}
+
+.form-h4{
+    color:rgb(117, 117, 117);
+    margin-bottom: 0;
+}
+
+.form-h3{
+    color:#145A96;
+    margin-bottom: 0;
+
+}
+
+.form-h2{
+    margin-top: 0;
+}
