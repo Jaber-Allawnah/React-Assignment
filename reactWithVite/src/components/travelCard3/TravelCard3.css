@@ -7,6 +7,9 @@
     gap:1rem;
     width:100%;
     max-width: 18rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    
 
 
 }
@@ -15,14 +18,13 @@
     display: flex;
     justify-content: space-between;
     align-items: start;
-    
+        
 }
 
 .review-div{
     display: flex;
     gap:0.8rem;
     align-items: center;
-
 
 }
 
@@ -34,7 +36,6 @@
 
 .desc-h4{
     margin:0.4rem 0 0 0;
-    font-family: Arial, sans-serif;
     color: rgb(164, 164, 164);
     font-weight: 200;
     font-size: 0.9rem;
@@ -42,14 +43,16 @@
 
 .alt-h3{
     margin:0;
-    font-family: Arial, sans-serif;
 
 }
 
 .price-h4{
     margin:0;
-    font-family: Arial, sans-serif;
     font-weight: 200;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -79,6 +82,8 @@
     border: solid #87b5dd 0.1rem;
     color:#145A96;
     padding: 0.8rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
 
 }
 

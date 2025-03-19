@@ -7,6 +7,7 @@
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
+    max-width: 100%;
 }
 
 .row-1-rectrip {
@@ -18,28 +19,26 @@
 
 .row-2-rectrip {
     display: flex;
-    flex-wrap: wrap;
     gap: 1.5rem;
     padding: 1rem;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
 }
-.rectrip-h3{
+
+.rectrip-h3 {
     color: #145A96;
-
 }
-
-
 
 @media (min-width: 1280px) {
     .row-2-rectrip {
         justify-content: space-between;
-
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-
-
     .row-1-rectrip {
         flex-direction: column;
         text-align: center;
@@ -49,7 +48,7 @@
 
     .row-2-rectrip {
         gap: 1rem;
-        
+        width: 100%;
     }
 
     .rectrip-h3 {
@@ -59,12 +58,32 @@
 
 @media (max-width: 480px) {
     .main-container-rectrip {
-        width: 95%;
-        padding: 1rem;
+        width: 90%;
+        padding: 2rem 1rem;
+    }
+
+    .row-1-rectrip {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     .row-1-rectrip h2 {
         font-size: 1.5rem;
     }
 
+    .row-2-rectrip {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    .row-2-rectrip > * {
+        width: 90%;
+        max-width: 300px; 
+    }
 }

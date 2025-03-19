@@ -11,7 +11,7 @@ const Search=()=>{
                     <h1 class="search-h1">Let's explore & travel the world</h1>
                     <h4 class="search-h4">Find the best destinations and the most popular stays!</h4>
                 </div>    
-                <div className="serach-flight">
+                <div className="search-flight">
                     <div className="row-1">
                         <h3 className="search-h3" >SEARCH FLIGHTS</h3>
                         <div className="way-choice">

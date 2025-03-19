@@ -6,7 +6,7 @@ const Form=()=>{
         <>
             <div className="main-container-form">
                 <h3 className="form-h3">SUBSCRIBE TO OUR NEWSLETTER</h3>
-                <h2 className="form-h2">Get weekly updates</h2>
+                <h1 className="form-h2">Get weekly updates</h1>
                 <form className="form-fields">
                     <h4 className="form-h4">Fill in your details to join the party!</h4>
                         <input type="text" placeholder="Your name" className="form-input"/>

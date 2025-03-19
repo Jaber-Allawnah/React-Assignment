@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 .main-container-search{
     background-image: url("/background.png");
     background-size: cover;
@@ -6,7 +8,7 @@
     padding:10rem;
     display: flex;
     flex-direction: column;
-
+    
 }
 
 .search-h1{
@@ -22,19 +24,19 @@
     color:white;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 500;
     font-style: bold;
     font-size: 1rem;
     
 }
 .search-h3{
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
     font-style: bold;
 }
 
-.serach-flight{
+.search-flight{
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -63,12 +65,16 @@
 .radio-label{
     margin-right:0.4rem;
     color:rgb(84, 83, 83);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 
 }
 
 .search-radio{
     margin-right:0.4rem;
     color:rgb(84, 83, 83);
+
 }
 
 .search-btn{
@@ -79,7 +85,7 @@
     width:10%;
     margin-top: 0.4rem;
     padding:0  0.7rem 0 0.6rem;
-    font-family: "Lato", sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-style: normal;
 
@@ -102,7 +108,7 @@
         flex-direction: column;
         align-items: start;
     }
-    .serach-flight{
+    .search-flight{
         width:100%;
         max-width: 15rem;
         align-items: center;
@@ -110,8 +116,18 @@
     .main-container-search{
         align-items: center;
         text-align: center;
+        max-width: 100vw;
+        box-sizing: border-box;
+        overflow-x: hidden;
     
     }
+}
+@media (max-width: 560px) {
+    .search-flight{
+        width: 100rem;
+    }
+    
+    
 }
 
 

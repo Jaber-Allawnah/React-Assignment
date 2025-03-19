@@ -11,7 +11,7 @@ const TravelCard2=(props)=>{
                         <h5 className="card2-destination">{props.alt}</h5>
                         <h6 className="card2-code">{props.code}</h6>
                     </div>
-                    <h3 className="card2-price">{props.price}</h3>
+                    <h1 className="card2-price">{props.price}</h1>
                 </div>    
             </div>
         </>

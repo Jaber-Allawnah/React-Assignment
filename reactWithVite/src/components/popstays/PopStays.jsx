@@ -8,7 +8,7 @@ const PopStays=()=>{
         <>
             <div className="main-container-popstays">
                 <div className="row-1-popstays">
-                    <h2>Popular Stays</h2>
+                    <h1>Popular Stays</h1>
                     <div className="plantrip-arrow">
                         <h3 className="popstays-h3">View all stays</h3>
                         <GoArrowRight className="arrow-icon" size={30}/>

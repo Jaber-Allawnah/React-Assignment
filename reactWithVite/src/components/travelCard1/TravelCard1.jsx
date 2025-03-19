@@ -6,7 +6,7 @@ const TravelCard1 = (props) => {
     <div className="travel-card1">
       <img src={props.src} alt={props.alt} className="travel-image1"/>
         <div className="travel-text card1-destination">{props.alt}</div>
-        <div className="travel-text card1-price">From<br/>{props.price}</div>
+        <div className="travel-text card1-price"><span className="travel-text from-text">From</span><br/>{props.price}</div>
 
     </div>
   );

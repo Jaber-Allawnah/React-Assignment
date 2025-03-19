@@ -11,12 +11,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Arial, sans-serif;
     padding: 0 1rem 0 1rem;
 }
 
 .travel-image2 {
-    width: 100%;
+    width: auto;
     height: auto;
     max-height: 15rem;
     object-fit: cover;
@@ -26,7 +25,11 @@
 .card2-price {
     color: #145A96;
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .card2-code {
@@ -42,7 +45,6 @@
     margin: 0;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
     .travel-card2 {
         max-width: 16rem;
@@ -56,4 +58,13 @@
     .travel-card2 {
         max-width: 100%;
     }
+}
+
+@media (max-width: 480px) {
+    .travel-card2 {
+
+        max-width: 19rem;
+    }
+    
+
 }

@@ -12,7 +12,7 @@ const PlanTrip=()=>{
                 <div className="plantrip-titles">
                     <div className="plantrip-left-titles">
                         <h3 className="plantrip-h3">Plan your next trip</h3>
-                        <h2 className="plantrip-h2">Most Popular Destinations</h2>
+                        <h1 className="plantrip-h1">Most Popular Destinations</h1>
                     </div>
                     <div className="plantrip-arrow">
                         <h3 className="plantrip-h3">View all destinations</h3><GoArrowRight className="arrow-icon" size={30}/>

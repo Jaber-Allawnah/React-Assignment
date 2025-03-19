@@ -7,7 +7,7 @@ const RecommendedTrip = () => {
     return (
         <div className="main-container-rectrip">
             <div className="row-1-rectrip">
-                <h2>Recommended Holidays</h2>
+                <h1>Recommended Holidays</h1>
                 <div className="plantrip-arrow">
                     <h3 className="rectrip-h3">View all holidays</h3>
                     <GoArrowRight className="arrow-icon" size={30} />
